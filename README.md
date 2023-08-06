@@ -1,5 +1,5 @@
 <h1 align="center"> Biblioteca em Node.js </h1>
-status: developing
+status: done
 
 ## Descrição
 
@@ -22,9 +22,43 @@ O intuito da biblioteca é trabalhar no contexto de um blog de programação, re
 
 Se você deseja contribuir para o projeto, sinta-se à vontade para fazer um fork deste repositório, criar uma branch com suas alterações e enviar um pull request. Toda ajuda é bem-vinda!
 
-## Instalação
+## Como executar o projeto
 
-Para instalar a biblioteca, você precisará ter o Node.js e o npm instalados em sua máquina. Em seguida, execute o seguinte comando no terminal:
+Para executar o projeto, siga os passos abaixo:
+
+1. Clone o repositório em sua máquina local:
 
 ```bash
-EM BREVE
+git clone https://github.com/codebygustavo/bibliotecaNodejs.git
+```
+
+2. Sete o local de download no terminal
+```bash
+cd /caminho/absoluto/da/pasta/pasta
+```
+3. Instale as dependencias do arquivo packege.json
+```bash
+npm install
+```
+
+4. Faça a verificação do arquivo .md
+```bash
+node cli.js /caminho/do/arquivo.dm
+```
+
+ou utilize os arquivos já disponibilizados no repositório:
+
+```bash
+npm run cli validar
+```
+
+### Resultado
+
+Após executar o comando de verificação, o terminal exibirá todos os links que estão no arquivo .dm desejado, juntamente com seu status.
+
+#### Status dos Links
++ Link Funcional: Status 200-299 (OK)
++ Link Redirecionado: Status 300-399 (Redirecionado)
++ Link não Funcional: Status 400-499 e 500-599 (Erro do cliente ou do servidor)
+  
+Sinta-se à vontade para utilizar o projeto e aprimorá-lo conforme suas necessidades. Caso tenha alguma dúvida ou sugestão, fique à vontade para contribuir com o repositório.
