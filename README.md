@@ -33,9 +33,11 @@ git clone https://github.com/codebygustavo/bibliotecaNodejs.git
 ```
 
 2. Sete o local de download no terminal
+> exemplo: cd C:/Users/Gustavo/Desktop/bibliotecaNodejs
 ```bash
-cd /caminho/absoluto/da/pasta/pasta
+cd C:/caminho/absoluto/da/pasta
 ```
+
 3. Instale as dependencias do arquivo packege.json
 ```bash
 npm install
